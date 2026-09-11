@@ -12,7 +12,7 @@ from http.server import HTTPServer, SimpleHTTPRequestHandler
 from urllib.parse import urlparse, parse_qs
 from datetime import datetime
 
-PORT = 3000
+PORT = int(os.environ.get('PORT', 3000))
 DB_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'verishield.db')
 
 # ==============================================================================
