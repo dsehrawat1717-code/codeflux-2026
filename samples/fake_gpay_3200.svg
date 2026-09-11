@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="520" viewBox="0 0 380 520">
+  <rect width="380" height="520" rx="24" fill="#ffffff" stroke="#dddddd" stroke-width="2"/>
+  <rect width="380" height="32" fill="#f8f9fa"/>
+  <text x="24" y="22" fill="#5f6368" font-size="12" font-family="sans-serif">02:15 PM</text>
+  <text x="320" y="22" fill="#5f6368" font-size="12" font-family="sans-serif">5G 92%</text>
+  
+  <text x="190" y="70" fill="#4285f4" font-size="20" font-weight="bold" font-family="sans-serif" text-anchor="middle">G<tspan fill="#ea4335">o</tspan><tspan fill="#fbbc05">o</tspan><tspan fill="#4285f4">g</tspan><tspan fill="#34a853">l</tspan><tspan fill="#ea4335">e</tspan> Pay</text>
+  
+  <circle cx="190" cy="130" r="32" fill="#1a73e8"/>
+  <text x="190" y="140" fill="#ffffff" font-size="24" font-weight="bold" font-family="sans-serif" text-anchor="middle">D</text>
+  
+  <text x="190" y="185" fill="#202124" font-size="17" font-weight="bold" font-family="sans-serif" text-anchor="middle">Paid to Deepak S</text>
+  <text x="190" y="205" fill="#5f6368" font-size="12" font-family="sans-serif" text-anchor="middle">deepak@okaxis</text>
+  
+  <text x="190" y="265" fill="#202124" font-size="42" font-weight="bold" font-family="Times New Roman" text-anchor="middle">₹3,200</text>
+  
+  <rect x="130" y="295" width="120" height="30" rx="15" fill="#e6f4ea"/>
+  <text x="190" y="315" fill="#137333" font-size="12" font-weight="bold" font-family="sans-serif" text-anchor="middle">✓ Completed</text>
+  
+  <rect x="30" y="350" width="320" height="110" rx="12" fill="#f8f9fa"/>
+  <text x="45" y="380" fill="#5f6368" font-size="12">UPI transaction ID</text>
+  <text x="335" y="380" fill="#202124" font-size="12" font-family="monospace" text-anchor="end">FORGED-99381</text>
+  
+  <text x="45" y="415" fill="#5f6368" font-size="12">To</text>
+  <text x="335" y="415" fill="#202124" font-size="12" text-anchor="end">Deepak Sehrawat</text>
+  
+  <text x="45" y="445" fill="#5f6368" font-size="12">Google transaction ID</text>
+  <text x="335" y="445" fill="#202124" font-size="12" font-family="monospace" text-anchor="end">CICAgMC28491x</text>
+</svg>

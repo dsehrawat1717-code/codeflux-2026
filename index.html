@@ -1,0 +1,1637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VeriShield AI — Digital Media & Scam Protection Suite</title>
+  <meta name="description" content="AI-Powered Trust & Safety Platform protecting seniors, families, and students against fake payment screens, AI voice clone scams, deepfake extortion, and fraud calls/messages.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="theme-dark">
+  <!-- Top Navigation -->
+  <header class="top-nav" id="top-nav">
+    <div class="nav-container">
+      <div class="brand-logo" id="nav-brand-btn" style="cursor: pointer;" title="Go to Home / 4 Main Hubs">
+        <div class="shield-icon">
+          <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            <path d="m9 12 2 2 4-4" stroke="#00f2fe" stroke-width="2.5"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">VeriShield <span class="brand-badge">AI</span></span>
+          <span class="brand-subtitle">Digital Media &amp; Scam Shield</span>
+        </div>
+      </div>
+
+      <div class="nav-actions">
+        <!-- Backend & SQLite Database Live Status Badge -->
+        <button id="btn-open-db-explorer" class="btn-db-status" title="View Live SQLite Database &amp; REST APIs">
+          <span class="db-dot-live"></span>
+          <span id="nav-db-status-text">Backend: <strong>SQLite Active</strong></span>
+        </button>
+
+        <!-- Website Security Profile Badge -->
+        <button id="user-profile-btn" class="btn-profile-badge" title="Website Security Identity &amp; Profile Settings">
+          <span class="profile-icon">🛡️</span>
+          <span id="nav-profile-text">Security Gate: <strong>Setup</strong></span>
+        </button>
+
+        <!-- Senior Citizen Mode Toggle -->
+        <button id="senior-mode-btn" class="btn-senior-toggle" title="Switch to Extra Large &amp; High Contrast Senior Citizen Mode">
+          <span class="mode-icon">👴</span>
+          <span class="mode-text">Senior / बुजुर्ग Mode: <strong>OFF</strong></span>
+        </button>
+
+        <!-- Hackathon Pitch Guide Button -->
+        <button id="pitch-guide-btn" class="btn-pitch-guide" title="Open 2-Minute Pitch &amp; Demo Guide for Judges">
+          <span class="pitch-icon">🏆</span>
+          <span>Judge Pitch Deck</span>
+        </button>
+
+        <!-- Emergency Helpline Badge -->
+        <div class="cyber-helpline" title="Official Indian Cyber Crime Helpline">
+          <span class="pulse-dot"></span>
+          <span class="helpline-text">Cyber Helpline: <strong>1930</strong></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================================= -->
+  <!-- VIEW 1: CLEAN 4-BARS LANDING VIEW (2x2 GRID ALIGNMENT)                    -->
+  <!-- ========================================================================= -->
+  <div id="landing-view" class="landing-view">
+    <section class="clean-hero">
+      <div class="track-tag">
+        <span class="tag-glow"></span>
+        <span>CODE FLUX HACKATHON • TRACK 6: TRUST &amp; SAFETY IN DIGITAL MEDIA</span>
+      </div>
+      <h1 class="hero-title">Protecting Citizens from <span class="gradient-text">AI Fraud &amp; Digital Deception</span></h1>
+      <p class="hero-desc">
+        Select any protection module below to start instant forensic verification:
+      </p>
+    </section>
+
+    <!-- THE 4 MAIN BARS (2x2 GRID) -->
+    <section class="bars-container">
+      <!-- BAR 1: FAKE PAYMENT BUSTER -->
+      <div class="hub-bar hub-bar-featured" id="hub-bar-payment">
+        <div class="hub-bar-left">
+          <div class="hub-icon-box icon-payment">💳</div>
+          <div class="hub-text">
+            <div class="hub-title-row">
+              <h3>1. Fake Payment &amp; UPI Screenshot Buster</h3>
+              <div class="hub-pills-wrap">
+                <span class="badge-pill pill-featured">Deepak's Core Feature</span>
+                <span class="badge-pill pill-new">Single &amp; Batch Photos</span>
+              </div>
+            </div>
+            <p>Scan single or multiple payment screens to detect spoofed Paytm, GPay &amp; fake UTRs with loud bilingual Hindi &amp; English voice alerts.</p>
+          </div>
+        </div>
+        <div class="hub-bar-right">
+          <button class="btn-open-hub">Open Payment Buster &rarr;</button>
+        </div>
+      </div>
+
+      <!-- BAR 2: AI VOICE-CLONE RADAR -->
+      <div class="hub-bar" id="hub-bar-voice">
+        <div class="hub-bar-left">
+          <div class="hub-icon-box icon-voice">📞</div>
+          <div class="hub-text">
+            <div class="hub-title-row">
+              <h3>2. AI Voice-Clone &amp; Digital Arrest Radar</h3>
+              <div class="hub-pills-wrap">
+                <span class="badge-pill pill-ai">Neural Audio Analyzer</span>
+              </div>
+            </div>
+            <p>Analyze incoming calls and voice notes to catch artificial voice clones (emergency accident calls) and fraudulent police "Digital Arrest" threats.</p>
+          </div>
+        </div>
+        <div class="hub-bar-right">
+          <button class="btn-open-hub">Open Voice Radar &rarr;</button>
+        </div>
+      </div>
+
+      <!-- BAR 3: DEEPFAKE & PHOTO SHIELD -->
+      <div class="hub-bar" id="hub-bar-deepfake">
+        <div class="hub-bar-left">
+          <div class="hub-icon-box icon-deepfake">🖼️</div>
+          <div class="hub-text">
+            <div class="hub-title-row">
+              <h3>3. Deepfake &amp; Photo Blackmail Shield</h3>
+              <div class="hub-pills-wrap">
+                <span class="badge-pill pill-legal">IT Act Sec 66E / 67A</span>
+              </div>
+            </div>
+            <p>Inspect manipulated facial seams with interactive forensic heatmaps and generate pre-filled legal cyber takedown notices in 1 click.</p>
+          </div>
+        </div>
+        <div class="hub-bar-right">
+          <button class="btn-open-hub">Open Deepfake Shield &rarr;</button>
+        </div>
+      </div>
+
+      <!-- BAR 4: FRAUD CALL & SCAM MESSAGE RADAR (REPLACING APP SECURITY) -->
+      <div class="hub-bar" id="hub-bar-scam">
+        <div class="hub-bar-left">
+          <div class="hub-icon-box icon-scam">🚫</div>
+          <div class="hub-text">
+            <div class="hub-title-row">
+              <h3>4. Fraud Call &amp; Scam Message Radar</h3>
+              <div class="hub-pills-wrap">
+                <span class="badge-pill pill-danger">SMS • WhatsApp • Robocalls</span>
+              </div>
+            </div>
+            <p>Detect fake electricity power-cut threats, bank KYC suspension links, Telegram job traps &amp; illegal TRAI/police robocalls with instant voice warnings.</p>
+          </div>
+        </div>
+        <div class="hub-bar-right">
+          <button class="btn-open-hub">Open Scam Radar &rarr;</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- LIVE COMMUNITY THREAT RADAR -->
+    <section class="threat-ticker-section">
+      <div class="ticker-header">
+        <span class="radar-pulse"></span>
+        <span class="ticker-title">CAMPUS THREAT RADAR:</span>
+      </div>
+      <div class="ticker-scroller">
+        <div class="ticker-track">
+          <span class="ticker-item">🚨 <strong>LPU Campus Alert:</strong> Spoofed Paytm APK v4.2 reported near UniMall shops.</span>
+          <span class="ticker-item">⚠️ <strong>Punjab Police Cyber Alert:</strong> Electricity bill disconnection SMS scam circulating on WhatsApp.</span>
+          <span class="ticker-item">🛡️ <strong>VeriShield Network:</strong> 1,284 fake UPI screens &amp; 840 phishing SMS blocked today.</span>
+          <span class="ticker-item">🔔 <strong>Advisory:</strong> Banks never ask for PAN/Aadhaar updates over unverified bit.ly links.</span>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- VIEW 2: DEDICATED FEATURE WORKSPACES (OPENED VIA 4 BARS)                   -->
+  <!-- ========================================================================= -->
+  <div id="workspace-view" class="workspace-view" style="display: none;">
+    <!-- Top Back Navigation Bar -->
+    <div class="workspace-header-bar">
+      <button id="btn-back-to-landing" class="btn-back-home">
+        <span>← Back</span>
+      </button>
+      <div class="workspace-title-display">
+        <span id="workspace-current-title">Fake Payment Buster</span>
+      </div>
+    </div>
+
+    <!-- 1. MODULE: FAKE PAYMENT BUSTER -->
+    <section id="module-payment" class="module-workspace">
+      <!-- Sub-Tabs: Single vs Batch -->
+      <div class="submode-tabs">
+        <button class="submode-btn active" id="btn-submode-single">
+          <span>📱 Single Screenshot Scan</span>
+        </button>
+        <button class="submode-btn" id="btn-submode-batch">
+          <span>📚 Batch Multiple Photos Scan</span>
+          <span class="badge-submode">New Feature</span>
+        </button>
+      </div>
+
+      <!-- SINGLE SCAN VIEW -->
+      <div id="payment-single-container" class="module-grid">
+        <!-- Upload & Sample Area -->
+        <div class="glass-card upload-panel">
+          <div class="panel-header">
+            <div class="panel-title-wrap">
+              <span class="badge-step">STEP 1</span>
+              <h2>Scan Payment Screen or Receipt</h2>
+            </div>
+            <span class="senior-hint">👉 Click a sample button below or upload single/multiple screenshots!</span>
+          </div>
+
+          <div class="dropzone" id="payment-dropzone">
+            <input type="file" id="payment-file-input" accept="image/*" multiple class="file-input-hidden">
+            <div class="dropzone-content" id="payment-drop-visual">
+              <div class="drop-icon">📱</div>
+              <h3>Drag &amp; Drop Screenshots Here</h3>
+              <p>or click to browse your gallery (Select single or multiple photos)</p>
+              <span class="btn-browse">Upload Screenshot(s)</span>
+            </div>
+            <div class="preview-area" id="payment-preview-area" style="display: none;">
+              <img id="payment-preview-img" alt="Payment Preview">
+              <div class="scan-laser-line" id="payment-laser"></div>
+              <div class="tamper-box box-font" id="box-font" style="display: none;">
+                <span class="tamper-label">⚠️ Fake Font Mismatch</span>
+              </div>
+              <div class="tamper-box box-utr" id="box-utr" style="display: none;">
+                <span class="tamper-label">❌ Invalid UTR Checksum</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Instant Demo Samples -->
+          <div class="samples-section">
+            <div class="samples-title">
+              <span>⚡ Quick Demo Samples (Try in 1-Click):</span>
+            </div>
+            <div class="sample-buttons">
+              <button class="btn-sample btn-fake" id="sample-fake-paytm">
+                <span class="dot-fake"></span>
+                <span>Spoofed Paytm ₹5,000 (Fake Screen)</span>
+              </button>
+              <button class="btn-sample btn-fake" id="sample-fake-gpay">
+                <span class="dot-fake"></span>
+                <span>Forged Google Pay ₹3,200 (Fake UTR)</span>
+              </button>
+              <button class="btn-sample btn-real" id="sample-real-upi">
+                <span class="dot-real"></span>
+                <span>Verified Real Bank Receipt ₹1,500</span>
+              </button>
+            </div>
+            <div class="sample-downloads-row">
+              <a href="samples/fake_paytm_5000.svg" download="fake_paytm_5000.svg" class="btn-secondary btn-download-sample">
+                📥 Download Fake Paytm File
+              </a>
+              <a href="samples/fake_gpay_3200.svg" download="fake_gpay_3200.svg" class="btn-secondary btn-download-sample">
+                📥 Download Fake GPay File
+              </a>
+            </div>
+          </div>
+
+          <div class="scan-actions">
+            <button id="btn-scan-payment" class="btn-primary" disabled>
+              <span class="btn-icon">⚡</span>
+              <span>Analyze Authenticity Now</span>
+            </button>
+            <button id="btn-reset-payment" class="btn-secondary">
+              <span>Reset</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Single Result Panel -->
+        <div class="glass-card result-panel" id="payment-result-panel">
+          <div class="panel-header">
+            <div class="panel-title-wrap">
+              <span class="badge-step">STEP 2</span>
+              <h2>Forensic Authenticity Verdict</h2>
+            </div>
+            <button id="btn-speak-payment" class="btn-voice-replay" style="display: none;" title="Speak Alert Aloud">
+              🔊 Repeat Voice Alert
+            </button>
+          </div>
+
+          <div class="idle-state" id="payment-idle-state">
+            <div class="idle-icon">🔍</div>
+            <h3>Waiting for Screenshot</h3>
+            <p>Select one of the demo samples on the left or upload any UPI screenshot to see forensic detection in action.</p>
+          </div>
+
+          <div class="scanning-state" id="payment-scanning-state" style="display: none;">
+            <div class="spinner-radar"></div>
+            <h3>Running Deep Forensic Scan...</h3>
+            <div class="scan-step-log">
+              <div class="log-item" id="log-1">⏳ Checking proprietary font typography...</div>
+              <div class="log-item" id="log-2">⏳ Validating 12-digit UTR Banking Checksum...</div>
+              <div class="log-item" id="log-3">⏳ Analyzing compression halos around green checkmark...</div>
+              <div class="log-item" id="log-4">⏳ Checking Android status bar clock &amp; battery metrics...</div>
+            </div>
+          </div>
+
+          <div class="verdict-card" id="payment-verdict-box" style="display: none;">
+            <div class="verdict-banner" id="verdict-banner">
+              <div class="verdict-icon" id="verdict-icon">❌</div>
+              <div class="verdict-headline">
+                <h3 id="verdict-title">SPOOFED FAKE PAYMENT DETECTED!</h3>
+                <p id="verdict-subtitle">No real money was transferred to your bank account.</p>
+              </div>
+            </div>
+
+            <!-- Voice Alert Banner -->
+            <div class="audio-alert-banner" id="audio-alert-banner">
+              <span class="speaker-wave">📢</span>
+              <div class="audio-text">
+                <strong>Audio Spoken to User (Hindi First, Then English):</strong>
+                <p id="audio-transcript">"चेतावनी! यह पेमेंट स्क्रीन नकली है। आपके बैंक खाते में पैसे नहीं आए हैं!"</p>
+              </div>
+            </div>
+
+            <div class="forensic-breakdown">
+              <h4>Forensic Anomaly Checklist</h4>
+              <div class="breakdown-grid">
+                <div class="anomaly-item">
+                  <div class="metric-top">
+                    <span class="metric-name">Font Typography</span>
+                    <span class="metric-tag tag-danger" id="tag-font">TAMPERED</span>
+                  </div>
+                  <p class="metric-desc" id="desc-font">Standard Android Roboto used instead of official brand typeface.</p>
+                </div>
+                <div class="anomaly-item">
+                  <div class="metric-top">
+                    <span class="metric-name">UPI Ref / UTR Checksum</span>
+                    <span class="metric-tag tag-danger" id="tag-utr">INVALID</span>
+                  </div>
+                  <p class="metric-desc" id="desc-utr">12-digit algorithm check failed. Non-existent bank transaction ID.</p>
+                </div>
+                <div class="anomaly-item">
+                  <div class="metric-top">
+                    <span class="metric-name">Green Tick Artifacts</span>
+                    <span class="metric-tag tag-warning" id="tag-artifacts">EDITED</span>
+                  </div>
+                  <p class="metric-desc" id="desc-artifacts">High JPEG compression variance detected around the amount field.</p>
+                </div>
+                <div class="anomaly-item">
+                  <div class="metric-top">
+                    <span class="metric-name">Status Bar &amp; Timestamp</span>
+                    <span class="metric-tag tag-danger" id="tag-clock">CLONED</span>
+                  </div>
+                  <p class="metric-desc" id="desc-clock">Clock reads 10:45 AM while transaction timestamp is 10:52 PM.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="advice-card">
+              <span class="advice-icon">💡</span>
+              <div class="advice-content">
+                <strong>Immediate Action Required:</strong>
+                <p id="advice-text">Do NOT hand over any goods or cash. Ask the customer to show their actual bank SMS.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- BATCH MULTI-PHOTO SCAN VIEW -->
+      <div id="payment-batch-container" class="batch-workspace" style="display: none;">
+        <div class="glass-card batch-card">
+          <div class="batch-header">
+            <div>
+              <h2>Batch Multiple Photos Verification</h2>
+              <p>Upload a batch of payment screenshots from your daily transactions to authenticate all of them at once.</p>
+            </div>
+            <div class="batch-quick-actions">
+              <button class="btn-secondary" id="btn-load-demo-batch">
+                ⚡ Load 3 Demo Photos Batch
+              </button>
+              <button class="btn-primary" id="btn-scan-batch" disabled>
+                🚀 Scan Entire Batch (<span id="batch-count-num">0</span>)
+              </button>
+            </div>
+          </div>
+
+          <div class="batch-dropzone" id="batch-dropzone">
+            <input type="file" id="batch-file-input" accept="image/*" multiple class="file-input-hidden">
+            <div class="batch-drop-prompt">
+              <div class="drop-icon">📚</div>
+              <h3>Select or Drop Multiple Screenshots Here</h3>
+              <p>Hold Ctrl or Shift to select multiple photos at once</p>
+              <button class="btn-browse" id="btn-browse-batch">Choose Multiple Files</button>
+            </div>
+          </div>
+
+          <div class="batch-queue-container" id="batch-queue-container" style="display: none;">
+            <div class="batch-queue-header">
+              <h3>Queued Screenshots for Batch Scan</h3>
+              <button class="btn-secondary btn-small" id="btn-clear-batch">Clear Batch</button>
+            </div>
+            <div class="batch-grid" id="batch-items-grid"></div>
+          </div>
+
+          <div class="batch-summary-card" id="batch-summary-card" style="display: none;">
+            <div class="summary-top">
+              <h3>Batch Scan Results &amp; Fraud Prevention Summary</h3>
+              <button id="btn-speak-batch" class="btn-voice-replay">🔊 Speak Batch Summary</button>
+            </div>
+            <div class="summary-stats-grid">
+              <div class="summary-stat-box">
+                <span class="stat-big" id="batch-total-scanned">3</span>
+                <span class="stat-name">Total Screenshots</span>
+              </div>
+              <div class="summary-stat-box stat-danger">
+                <span class="stat-big" id="batch-fake-detected">2</span>
+                <span class="stat-name">🚨 Fake Screens Caught</span>
+              </div>
+              <div class="summary-stat-box stat-success">
+                <span class="stat-big" id="batch-real-detected">1</span>
+                <span class="stat-name">✅ Genuine Payments</span>
+              </div>
+              <div class="summary-stat-box stat-saved">
+                <span class="stat-big" id="batch-money-saved">₹8,200</span>
+                <span class="stat-name">💰 Potential Fraud Blocked</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. MODULE: AI VOICE-CLONE RADAR & TRUSTED VOICE VAULT -->
+    <section id="module-voice" class="module-workspace" style="display: none;">
+      <!-- Sub-Tabs: Enroll Voice vs Match Voice -->
+      <div class="submode-tabs">
+        <button class="submode-btn active" id="btn-submode-voice-enroll">
+          <span>🎙️ Record &amp; Save Trusted Voice Vault</span>
+        </button>
+        <button class="submode-btn" id="btn-submode-voice-match">
+          <span>🔍 Match Incoming Call &amp; Voice Radar</span>
+          <span class="badge-submode">Biometric Matcher</span>
+        </button>
+      </div>
+
+      <!-- VIEW A: ENROLL & RECORD TRUSTED VOICE VAULT -->
+      <div id="voice-enroll-container" class="module-grid">
+        <div class="glass-card upload-panel">
+          <div class="panel-header">
+            <div class="panel-title-wrap">
+              <span class="badge-step">STEP 1</span>
+              <h2>Record or Add Known Person's Voice</h2>
+            </div>
+            <span class="senior-hint">Record your own voice or family member to verify later.</span>
+          </div>
+
+          <!-- Live Mic Recording Studio -->
+          <div class="voice-recorder-studio">
+            <div class="waveform-box">
+              <canvas id="enroll-voice-canvas" width="460" height="130"></canvas>
+              <div class="waveform-overlay-text" id="enroll-wave-status">Click Start Recording to record sample voice</div>
+            </div>
+
+            <div class="recording-controls-row">
+              <button class="btn-primary" id="btn-start-record">
+                <span class="rec-dot"></span>
+                <span id="record-btn-text">🔴 Start Recording Voice</span>
+              </button>
+              <div class="record-timer-badge" id="record-timer-display">00:00</div>
+            </div>
+
+            <div class="recorded-audio-playback" id="recorded-preview-wrap" style="display: none;">
+              <audio id="recorded-audio-element" controls style="width: 100%; margin-top: 0.75rem;"></audio>
+            </div>
+
+            <div class="or-divider"><span>OR UPLOAD AUDIO / PICK PRESET</span></div>
+
+            <div class="enroll-quick-options">
+              <input type="file" id="enroll-audio-file-input" accept="audio/*" class="file-input-hidden">
+              <button class="btn-secondary btn-small" id="btn-browse-enroll-audio">
+                📁 Browse Voice File
+              </button>
+              <button class="btn-secondary btn-small" id="btn-load-preset-self">
+                👤 Sample: Deepak (Self)
+              </button>
+              <button class="btn-secondary btn-small" id="btn-load-preset-dad">
+                👨 Sample: Dad (Ramesh)
+              </button>
+            </div>
+          </div>
+
+          <!-- Save to Vault Form -->
+          <div class="enroll-save-box">
+            <label for="enroll-voice-name-input" class="sms-input-label">
+              Save Voice Under Person's Name:
+            </label>
+            <div class="enroll-input-row">
+              <input type="text" id="enroll-voice-name-input" class="sec-input" placeholder="e.g. Deepak Sehrawat, Dad, Mom, Ramesh..." value="Deepak Sehrawat">
+              <select id="enroll-voice-relation" class="sec-select">
+                <option value="Self">Self (My Voice)</option>
+                <option value="Father">Dad / Father</option>
+                <option value="Mother">Mom / Mother</option>
+                <option value="Family">Family Member</option>
+                <option value="Colleague">Colleague / Friend</option>
+              </select>
+            </div>
+            <button id="btn-save-voice-to-vault" class="btn-primary btn-full" style="margin-top: 1rem;">
+              💾 Save Voice into Trusted Vault
+            </button>
+            <div id="enroll-save-success-msg" class="enroll-success-badge" style="display: none;"></div>
+          </div>
+        </div>
+
+        <!-- Saved Voice Profiles Directory -->
+        <div class="glass-card result-panel">
+          <div class="panel-header">
+            <div class="panel-title-wrap">
+              <span class="badge-step">STEP 2</span>
+              <h2>📁 Trusted Voice Vault Directory</h2>
+            </div>
+            <span class="badge-pill pill-ai" id="vault-count-badge">3 Profiles Active</span>
+          </div>
+
+          <div class="vault-info-banner">
+            <span>🛡️ Saved profiles serve as the authentic biometric baseline to catch incoming voice clones!</span>
+          </div>
+
+          <!-- List of Saved Profiles -->
+          <div class="saved-profiles-list" id="saved-profiles-list">
+            <!-- Dynamically populated by app.js -->
+          </div>
+
+          <div class="advice-card" style="margin-top: 1.5rem;">
+            <span class="advice-icon">💡</span>
+            <div class="advice-content">
+              <strong>Next Step: Match Incoming Calls</strong>
+              <p>Once voices are saved, switch to the <strong>"Match Incoming Call"</strong> tab anytime someone calls claiming to be them!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- VIEW B: MATCH INCOMING CALL & RADAR -->
+      <div id="voice-match-container" class="module-grid" style="display: none;">
+        <div class="glass-card upload-panel">
+          <div class="panel-header">
+            <div class="panel-title-wrap">
+              <span class="badge-step">STEP 1</span>
+              <h2>Select Incoming Call &amp; Target Person</h2>
+            </div>
+            <span class="senior-hint">Pick the suspicious call and enter who they claim to be.</span>
+          </div>
+
+          <div class="audio-input-zone">
+            <div class="waveform-box">
+              <canvas id="voice-canvas" width="460" height="130"></canvas>
+              <div class="waveform-overlay-text" id="wave-status">Click a call sample or pick from saved recordings</div>
+            </div>
+
+            <div class="audio-player-controls">
+              <button class="btn-audio-play" id="btn-play-audio" disabled>
+                <span id="play-icon">▶</span>
+                <span id="play-label">Play Incoming Audio</span>
+              </button>
+              <div class="audio-meta" id="audio-meta-info">No call audio loaded</div>
+            </div>
+          </div>
+
+          <!-- Saved Call Recordings Picker & Upload -->
+          <div class="saved-recordings-picker-row">
+            <label for="select-saved-recording" class="sms-input-label">Pick from Saved Call Recordings:</label>
+            <div class="picker-controls">
+              <select id="select-saved-recording" class="sec-select">
+                <option value="">-- Choose Call Recording --</option>
+                <option value="rec_accident_clone">Call Rec #104: "Dad Accident Emergency" (Incoming)</option>
+                <option value="rec_deepak_clone">Call Rec #105: "Deepak Bail Urgent Money" (Incoming)</option>
+                <option value="rec_cbi_police">Call Rec #106: "CBI Police Digital Arrest" (Incoming)</option>
+                <option value="rec_dad_authentic">Call Rec #107: "Ramesh (Dad) Family Check-in" (Incoming)</option>
+                <option value="rec_deepak_authentic">Call Rec #108: "Deepak Normal Greeting" (Incoming)</option>
+              </select>
+              <input type="file" id="incoming-audio-file-input" accept="audio/*" class="file-input-hidden">
+              <button class="btn-secondary btn-small" id="btn-upload-incoming-call">📁 Upload File</button>
+            </div>
+          </div>
+
+          <!-- 1-Click Common Scenarios -->
+          <div class="samples-section">
+            <div class="samples-title">
+              <span>⚡ Quick Scam Audio Scenarios:</span>
+            </div>
+            <div class="sample-buttons">
+              <button class="btn-sample btn-fake" id="sample-voice-accident">
+                <span class="dot-fake"></span>
+                <span>"Dad, I had an accident! Send money!" (AI Clone)</span>
+              </button>
+              <button class="btn-sample btn-fake" id="sample-voice-police">
+                <span class="dot-fake"></span>
+                <span>"CBI Digital Arrest Police Extortion" (Fraud Caller)</span>
+              </button>
+              <button class="btn-sample btn-real" id="sample-voice-real">
+                <span class="dot-real"></span>
+                <span>"Ramesh Dad: Legitimate Family Call" (Natural Human)</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- USER REQUEST: Person Name Input to Match -->
+          <div class="match-name-prompt-card">
+            <div class="match-name-header">
+              <span class="match-icon">🎯</span>
+              <div>
+                <strong>Identity Verification Matcher:</strong>
+                <p>Whose voice should this incoming call match?</p>
+              </div>
+            </div>
+            <div class="match-input-group">
+              <label for="match-target-name-input" class="sms-input-label">Write the name of the person whose voice you want to match:</label>
+              <input type="text" id="match-target-name-input" class="sec-input" placeholder="Type name (e.g. Dad, Deepak, Ramesh, Rohit...)" value="Dad">
+              <button id="btn-run-voice-biometric-match" class="btn-primary btn-full" style="margin-top: 0.85rem;">
+                🔬 Match Voice with Vault
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Results Panel -->
+        <div class="glass-card result-panel">
+          <div class="panel-header">
+            <div class="panel-title-wrap">
+              <span class="badge-step">STEP 2</span>
+              <h2>Biometric Verdict &amp; Spectral Analysis</h2>
+            </div>
+            <button id="btn-speak-voice-result" class="btn-voice-replay" style="display: none;">🔊 Speak Result</button>
+          </div>
+
+          <div class="idle-state" id="voice-idle-state">
+            <div class="idle-icon">🎙️</div>
+            <h3>Waiting to Match Voice</h3>
+            <p>Select an incoming audio clip, type the person's name on the left, and click <strong>"Match Voice with Vault"</strong> to verify acoustic biometric signatures.</p>
+          </div>
+
+          <!-- VERDICT BOX -->
+          <div class="verdict-card" id="voice-verdict-box" style="display: none;">
+            <!-- DYNAMIC BANNER -->
+            <div class="verdict-banner" id="voice-verdict-banner">
+              <div class="verdict-icon" id="voice-verdict-icon">🚨</div>
+              <div class="verdict-headline">
+                <h3 id="voice-verdict-title">UNKNOWN PERSON / AI CLONE DETECTED!</h3>
+                <p id="voice-verdict-subtitle">Artificial ElevenLabs/VALL-E clone signature identified.</p>
+              </div>
+            </div>
+
+            <!-- Voice Alert Transcript -->
+            <div class="audio-alert-banner" id="voice-audio-alert-banner">
+              <span class="speaker-wave">📢</span>
+              <div class="audio-text">
+                <strong id="voice-audio-label">Spoken Warning to User:</strong>
+                <p id="voice-audio-transcript">"चेतावनी! अज्ञात व्यक्ति या एआई वॉयस क्लोन पकड़ा गया है।"</p>
+              </div>
+            </div>
+
+            <div class="spectral-meters">
+              <div class="meter-card">
+                <div class="meter-label">
+                  <span>Micro-Tremor Natural Variance</span>
+                  <strong id="meter-tremor-val">4% (Unnatural Flatness)</strong>
+                </div>
+                <div class="meter-bar-track">
+                  <div class="meter-bar-fill fill-danger" id="meter-tremor-bar" style="width: 8%;"></div>
+                </div>
+              </div>
+
+              <div class="meter-card">
+                <div class="meter-label">
+                  <span>Respiratory &amp; Breath Pause Cadence</span>
+                  <strong id="meter-breath-val">0 / min (Synthetic Continuous)</strong>
+                </div>
+                <div class="meter-bar-track">
+                  <div class="meter-bar-fill fill-danger" id="meter-breath-bar" style="width: 5%;"></div>
+                </div>
+              </div>
+
+              <div class="meter-card">
+                <div class="meter-label">
+                  <span>Neural Vocoder Artifact Score</span>
+                  <strong id="meter-vocoder-val">96% High Neural Fingerprint</strong>
+                </div>
+                <div class="meter-bar-track">
+                  <div class="meter-bar-fill fill-danger" id="meter-vocoder-bar" style="width: 96%;"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="threat-intel-box">
+              <h4>Biometric Comparison Report</h4>
+              <p id="voice-scam-explanation">
+                The caller claims to be Dad, but vocal tract frequency spectrum reveals a synthetic ElevenLabs neural vocoder artifact without human lung breath pauses.
+              </p>
+            </div>
+
+            <div class="advice-card">
+              <span class="advice-icon">🛡️</span>
+              <div class="advice-content">
+                <strong>Safety Recommendation:</strong>
+                <p id="voice-advice-text">Immediately hang up and dial your family member directly on their regular phone number. Do not send any funds.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. MODULE: DEEPFAKE & PHOTO SHIELD -->
+    <section id="module-deepfake" class="module-workspace" style="display: none;">
+      <!-- Submode Tabs: Single vs Batch -->
+      <div class="submode-tabs">
+        <button class="submode-btn active" id="btn-submode-deepfake-single">
+          <span>🖼️ Single Photo Forensic Scan</span>
+        </button>
+        <button class="submode-btn" id="btn-submode-deepfake-batch">
+          <span>📚 Batch Multiple Photos Scan</span>
+          <span class="badge-submode">Gallery Multi-Upload</span>
+        </button>
+      </div>
+
+      <!-- SINGLE PHOTO VIEW -->
+      <div id="deepfake-single-container" class="module-grid">
+        <div class="glass-card upload-panel">
+          <div class="panel-header">
+            <div class="panel-title-wrap">
+              <span class="badge-step">STEP 1</span>
+              <h2>Select Photo from Gallery or Samples</h2>
+            </div>
+            <span class="senior-hint">Click below to browse gallery photos or pick a sample.</span>
+          </div>
+
+          <!-- Gallery Dropzone -->
+          <div class="dropzone" id="deepfake-dropzone">
+            <input type="file" id="deepfake-file-input" accept="image/*" class="file-input-hidden">
+            <div class="dropzone-content" id="deepfake-drop-visual">
+              <div class="drop-icon">🖼️</div>
+              <h3>Select Photo from Gallery</h3>
+              <p>Click here or drag photo from your device gallery</p>
+              <span class="btn-browse" id="btn-browse-deepfake-single">Choose Gallery Photo</span>
+            </div>
+            <div class="deepfake-viewer-box" id="deepfake-viewer-box" style="display: none; width: 100%;">
+              <div class="img-compare-container" id="compare-container">
+                <div class="image-wrapper">
+                  <img id="deepfake-display-img" alt="Deepfake Analysis Target">
+                  <div class="heatmap-overlay" id="heatmap-overlay" style="display: none;"></div>
+                </div>
+              </div>
+              <div class="heatmap-toggle-bar">
+                <label class="toggle-switch">
+                  <input type="checkbox" id="toggle-heatmap" disabled>
+                  <span class="slider"></span>
+                </label>
+                <span class="toggle-text">Show Forensic Artifact Heatmap (Warps &amp; Boundary Edges)</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="samples-section">
+            <div class="samples-title">
+              <span>⚡ Or Pick a Quick Demonstration Photo:</span>
+            </div>
+            <div class="sample-buttons">
+              <button class="btn-sample btn-fake" id="sample-deepfake-face">
+                <span class="dot-fake"></span>
+                <span>Manipulated Face-Swap Extortion Photo</span>
+              </button>
+              <button class="btn-sample btn-real" id="sample-deepfake-real">
+                <span class="dot-real"></span>
+                <span>Authentic Camera Photograph (Clean)</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="scan-actions">
+            <button id="btn-scan-deepfake" class="btn-primary" disabled>
+              <span class="btn-icon">🔬</span>
+              <span>Run Deepfake Heatmap Scan</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="glass-card result-panel">
+          <div class="panel-header">
+            <div class="panel-title-wrap">
+              <span class="badge-step">STEP 2</span>
+              <h2>Manipulation Verdict &amp; Legal Action</h2>
+            </div>
+            <button id="btn-speak-deepfake" class="btn-voice-replay" style="display: none;">🔊 Speak Verdict</button>
+          </div>
+
+          <div class="idle-state" id="deepfake-idle-state">
+            <div class="idle-icon">🛡️</div>
+            <h3>Waiting for Image</h3>
+            <p>Pick a photo from your gallery or choose a demo sample to inspect facial landmark blending and corneal specular reflections.</p>
+          </div>
+
+          <div class="verdict-card" id="deepfake-verdict-box" style="display: none;">
+            <div class="verdict-banner" id="df-verdict-banner">
+              <div class="verdict-icon" id="df-verdict-icon">⚠️</div>
+              <div class="verdict-headline">
+                <h3 id="df-verdict-title">94.2% DEEPFAKE MANIPULATION DETECTED</h3>
+                <p id="df-verdict-subtitle">Face-swap blend seams and corneal reflection mismatches located.</p>
+              </div>
+            </div>
+
+            <!-- Voice Alert Transcript -->
+            <div class="audio-alert-banner" id="df-audio-alert-banner">
+              <span class="speaker-wave">📢</span>
+              <div class="audio-text">
+                <strong>Spoken Warning to User:</strong>
+                <p id="df-audio-transcript">"चेतावनी! यह एक डीपफेक या हेरफेर की गई फोटो है।"</p>
+              </div>
+            </div>
+
+            <div class="forensic-breakdown">
+              <h4>Forensic Heatmap Indicators</h4>
+              <div class="breakdown-grid">
+                <div class="anomaly-item">
+                  <div class="metric-top">
+                    <span class="metric-name">Jawline &amp; Ear Seam Blend</span>
+                    <span class="metric-tag tag-danger" id="df-tag-seam">DISCONTINUOUS</span>
+                  </div>
+                  <p class="metric-desc">Gradient boundary mismatch where synthetic face was grafted onto background.</p>
+                </div>
+                <div class="anomaly-item">
+                  <div class="metric-top">
+                    <span class="metric-name">Corneal Reflection (Eyes)</span>
+                    <span class="metric-tag tag-danger" id="df-tag-eyes">ASYMMETRIC</span>
+                  </div>
+                  <p class="metric-desc">Light sources in pupils do not match external ambient scene illumination.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="takedown-generator-card">
+              <div class="takedown-header">
+                <span class="takedown-icon">⚖️</span>
+                <div>
+                  <strong>1-Click Cyber Cell &amp; Platform Takedown Notice</strong>
+                  <p>Pre-filled with Indian IT Act (Sec 66E/67A) for fast removal.</p>
+                </div>
+              </div>
+              <button class="btn-secondary btn-full" id="btn-view-notice">
+                <span>📄 Generate Official Cyber Takedown Notice</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- BATCH MULTIPLE PHOTOS VIEW -->
+      <div id="deepfake-batch-container" class="batch-workspace" style="display: none;">
+        <div class="glass-card batch-card">
+          <div class="batch-header">
+            <div>
+              <h2>Batch Multiple Photos Deepfake Verification</h2>
+              <p>Select multiple images from your phone/computer gallery to scan all suspicious photos at once.</p>
+            </div>
+            <div class="batch-quick-actions">
+              <button class="btn-secondary" id="btn-load-demo-deepfake-batch">
+                ⚡ Load 3 Demo Gallery Photos
+              </button>
+              <button class="btn-primary" id="btn-scan-deepfake-batch" disabled>
+                🚀 Scan Entire Batch (<span id="deepfake-batch-count-num">0</span>)
+              </button>
+            </div>
+          </div>
+
+          <div class="batch-dropzone" id="deepfake-batch-dropzone">
+            <input type="file" id="deepfake-batch-file-input" accept="image/*" multiple class="file-input-hidden">
+            <div class="batch-drop-prompt">
+              <div class="drop-icon">📚</div>
+              <h3>Select Multiple Photos from Gallery</h3>
+              <p>Hold Ctrl or Shift to select multiple photos at once</p>
+              <button class="btn-browse" id="btn-browse-deepfake-batch">Choose Gallery Photos</button>
+            </div>
+          </div>
+
+          <div class="batch-queue-container" id="deepfake-batch-queue-container" style="display: none;">
+            <div class="batch-queue-header">
+              <h3>Queued Gallery Photos for Deepfake Scan</h3>
+              <button class="btn-secondary btn-small" id="btn-clear-deepfake-batch">Clear Batch</button>
+            </div>
+            <div class="batch-grid" id="deepfake-batch-items-grid"></div>
+          </div>
+
+          <div class="batch-summary-card" id="deepfake-batch-summary-card" style="display: none;">
+            <div class="summary-top">
+              <h3>Deepfake Batch Scan Results &amp; Protection Report</h3>
+              <button id="btn-speak-deepfake-batch" class="btn-voice-replay">🔊 Speak Batch Summary</button>
+            </div>
+            <div class="summary-stats-grid">
+              <div class="summary-stat-box">
+                <span class="stat-big" id="df-batch-total-scanned">3</span>
+                <span class="stat-name">Total Photos Scanned</span>
+              </div>
+              <div class="summary-stat-box stat-danger">
+                <span class="stat-big" id="df-batch-fake-detected">2</span>
+                <span class="stat-name">🚨 Manipulated Deepfakes</span>
+              </div>
+              <div class="summary-stat-box stat-success">
+                <span class="stat-big" id="df-batch-real-detected">1</span>
+                <span class="stat-name">✅ Clean Photographs</span>
+              </div>
+              <div class="summary-stat-box stat-saved">
+                <span class="stat-big" id="df-batch-threats-blocked">100%</span>
+                <span class="stat-name">🛡️ Protection Confidence</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. MODULE: FRAUD CALL & SCAM MESSAGE RADAR (AUTOMATED FEED & EMERGENCY PROTOCOLS) -->
+    <section id="module-scam" class="module-workspace" style="display: none;">
+      <div class="submode-tabs">
+        <button class="submode-btn active" id="btn-scam-sms">
+          <span>📩 Auto Messages Radar (मैसेज ऑटो-स्कैन)</span>
+        </button>
+        <button class="submode-btn" id="btn-scam-call">
+          <span>📞 Auto Call Logs Radar (कॉल्स ऑटो-स्कैन)</span>
+        </button>
+        <button class="submode-btn" id="btn-scam-emergency">
+          <span>🚨 Emergency SOS: If Info Shared (अगर जानकारी शेयर हो गई)</span>
+        </button>
+      </div>
+
+      <!-- TAB 1: AUTOMATED MESSAGES FEED -->
+      <div id="scam-sms-container" class="module-grid">
+        <div class="glass-card upload-panel">
+          <div class="panel-header">
+            <div class="panel-title-wrap">
+              <span class="badge-step">STEP 1</span>
+              <h2>Automated Device Message Feed</h2>
+            </div>
+            <span class="senior-hint">Auto-captured messages — No typing or manual entry needed</span>
+          </div>
+
+          <!-- Automated Scan Control Bar -->
+          <div class="auto-scan-control-bar">
+            <button id="btn-auto-scan-all-sms" class="btn-primary btn-auto-action">
+              <span class="btn-icon">⚡</span>
+              <span>Auto-Scan All Incoming Messages (5)</span>
+            </button>
+            <div class="feed-filter-group">
+              <button class="btn-filter active" id="filter-sms-all" data-filter="all">All (5)</button>
+              <button class="btn-filter" id="filter-sms-scam" data-filter="scam">🚨 Threats (4)</button>
+              <button class="btn-filter" id="filter-sms-safe" data-filter="safe">✅ Safe (1)</button>
+            </div>
+          </div>
+
+          <!-- Incoming Messages List -->
+          <div class="auto-feed-list" id="auto-sms-feed-list">
+            <!-- Populated via JavaScript dynamically -->
+          </div>
+
+          <div class="feed-footer-note">
+            <span>💡 Tip: Tap any message above to inspect full technical anomalies and hear bilingual voice warning.</span>
+          </div>
+        </div>
+
+        <!-- Scam Message Results Panel -->
+        <div class="glass-card result-panel">
+          <div class="panel-header">
+            <div class="panel-title-wrap">
+              <span class="badge-step">STEP 2</span>
+              <h2>Message Risk &amp; Threat Breakdown</h2>
+            </div>
+            <button id="btn-speak-sms" class="btn-voice-replay">🔊 Speak Warning</button>
+          </div>
+
+          <div class="idle-state" id="sms-idle-state" style="display: none;">
+            <div class="idle-icon">🛡️</div>
+            <h3>Waiting for Message Selection</h3>
+            <p>Click "Auto-Scan All" or select any incoming message from the feed on the left to review threat classification.</p>
+          </div>
+
+          <div class="verdict-card" id="sms-verdict-box">
+            <div class="verdict-banner" id="sms-verdict-banner">
+              <div class="verdict-icon" id="sms-verdict-icon">🚨</div>
+              <div class="verdict-headline">
+                <h3 id="sms-verdict-title">98.8% HIGH THREAT SCAM / PHISHING DETECTED!</h3>
+                <p id="sms-verdict-subtitle">Dangerous social engineering and unauthorized payment/APK bait identified.</p>
+              </div>
+            </div>
+
+            <!-- Voice Alert Banner -->
+            <div class="audio-alert-banner" id="sms-audio-alert-banner">
+              <span class="speaker-wave">📢</span>
+              <div class="audio-text">
+                <strong>Audio Spoken to User (Hindi First, Then English):</strong>
+                <p id="sms-audio-transcript">"चेतावनी! यह एक धोखाधड़ी वाला मैसेज है। किसी लिंक पर क्लिक न करें!"</p>
+              </div>
+            </div>
+
+            <!-- Inspecting Message Snippet -->
+            <div class="inspected-message-preview">
+              <span class="inspected-label">Inspected Message:</span>
+              <p id="sms-inspected-text">"Dear Consumer, your electricity power will be disconnected tonight at 9:30 PM..."</p>
+            </div>
+
+            <div class="forensic-breakdown">
+              <h4>Fraud Indicator Checklist</h4>
+              <div class="breakdown-grid">
+                <div class="anomaly-item">
+                  <div class="metric-top">
+                    <span class="metric-name">Sender Identity</span>
+                    <span class="metric-tag tag-danger" id="sms-tag-sender">SPOOFED</span>
+                  </div>
+                  <p class="metric-desc" id="sms-desc-sender">Sent from personal 10-digit mobile number, NOT verified corporate header.</p>
+                </div>
+
+                <div class="anomaly-item">
+                  <div class="metric-top">
+                    <span class="metric-name">Malicious URL / Link</span>
+                    <span class="metric-tag tag-danger" id="sms-tag-url">UNSAFE</span>
+                  </div>
+                  <p class="metric-desc" id="sms-desc-url">Shortened link (bit.ly) leads to fake credential stealing page.</p>
+                </div>
+
+                <div class="anomaly-item">
+                  <div class="metric-top">
+                    <span class="metric-name">Psychological Urgency</span>
+                    <span class="metric-tag tag-danger" id="sms-tag-urgency">PANIC BAIT</span>
+                  </div>
+                  <p class="metric-desc" id="sms-desc-urgency">Uses artificial time deadline ("tonight 9:30 PM") to induce panic.</p>
+                </div>
+
+                <div class="anomaly-item">
+                  <div class="metric-top">
+                    <span class="metric-name">Financial Risk Score</span>
+                    <span class="metric-tag tag-danger" id="sms-tag-risk">CRITICAL</span>
+                  </div>
+                  <p class="metric-desc" id="sms-desc-risk">Designed to trigger remote APK installation or OTP interception.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="takedown-generator-card">
+              <div class="takedown-header">
+                <span class="takedown-icon">📡</span>
+                <div>
+                  <strong>Report to DoT Chakshu (Sanchar Saathi)</strong>
+                  <p>Submit this fraud number directly to block the scammer's SIM card across India.</p>
+                </div>
+              </div>
+              <div style="display: flex; gap: 0.75rem; width: 100%;">
+                <a href="https://sancharsaathi.gov.in/sfc/" target="_blank" class="btn-secondary" style="flex: 1; text-decoration: none; text-align: center;">
+                  <span>🚨 Report on Chakshu Portal &rarr;</span>
+                </a>
+                <button id="btn-goto-emergency-from-sms" class="btn-primary" style="flex: 1;">
+                  <span>⚠️ Shared Info? Take Emergency Action</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB 2: AUTOMATED CALL LOGS FEED -->
+      <div id="scam-call-container" class="module-grid" style="display: none;">
+        <div class="glass-card upload-panel">
+          <div class="panel-header">
+            <div class="panel-title-wrap">
+              <span class="badge-step">STEP 1</span>
+              <h2>Automated Incoming Call Logs</h2>
+            </div>
+            <span class="senior-hint">Auto-synced recent incoming calls — No manual dial required</span>
+          </div>
+
+          <!-- Auto Scan Calls Bar -->
+          <div class="auto-scan-control-bar">
+            <button id="btn-auto-scan-all-calls" class="btn-primary btn-auto-action">
+              <span class="btn-icon">⚡</span>
+              <span>Auto-Scan All Incoming Calls (5)</span>
+            </button>
+            <div class="feed-filter-group">
+              <button class="btn-filter active" id="filter-call-all" data-filter="all">All (5)</button>
+              <button class="btn-filter" id="filter-call-scam" data-filter="scam">🚨 Blacklisted (3)</button>
+              <button class="btn-filter" id="filter-call-safe" data-filter="safe">✅ Safe (2)</button>
+            </div>
+          </div>
+
+          <!-- Incoming Calls List -->
+          <div class="auto-feed-list" id="auto-call-feed-list">
+            <!-- Populated via JavaScript dynamically -->
+          </div>
+
+          <div class="feed-footer-note">
+            <span>💡 Tip: Click any caller log above to inspect carrier routing, blacklist history, and audio analysis.</span>
+          </div>
+        </div>
+
+        <div class="glass-card result-panel">
+          <div class="panel-header">
+            <div class="panel-title-wrap">
+              <span class="badge-step">STEP 2</span>
+              <h2>Caller Reputation Intelligence</h2>
+            </div>
+            <button id="btn-speak-call" class="btn-voice-replay">🔊 Speak Warning</button>
+          </div>
+
+          <div class="verdict-card" id="call-verdict-box">
+            <div class="verdict-banner" id="call-verdict-banner">
+              <div class="verdict-icon" id="call-verdict-icon">🚨</div>
+              <div class="verdict-headline">
+                <h3 id="call-verdict-title">BLACKLISTED SPOOFED ROBOCALL</h3>
+                <p id="call-verdict-subtitle">Flagged by 1,894 citizens as impersonator fraud in the last 48 hours.</p>
+              </div>
+            </div>
+
+            <!-- Voice Alert Banner -->
+            <div class="audio-alert-banner" id="call-audio-alert-banner">
+              <span class="speaker-wave">📢</span>
+              <div class="audio-text">
+                <strong>Audio Spoken to User (Hindi First, Then English):</strong>
+                <p id="call-audio-transcript">"चेतावनी! यह नंबर फ्रॉड कॉल डेटाबेस में ब्लैकलिस्टेड है। फोन तुरंत काट दें।"</p>
+              </div>
+            </div>
+
+            <!-- Inspected Call Snippet -->
+            <div class="inspected-message-preview">
+              <span class="inspected-label">Inspected Call Details:</span>
+              <p id="call-inspected-text">+91 1800-425-9921 — TRAI Robocall: Number Disconnection Extortion</p>
+            </div>
+
+            <div class="forensic-breakdown">
+              <h4>Carrier &amp; Network Analytics</h4>
+              <div class="breakdown-grid">
+                <div class="anomaly-item">
+                  <div class="metric-top">
+                    <span class="metric-name">Carrier Routing</span>
+                    <span class="metric-tag tag-danger" id="call-tag-carrier">UNVERIFIED VOIP</span>
+                  </div>
+                  <p class="metric-desc" id="call-desc-carrier">Call routed through overseas virtual gateway pretending to be Indian SIM.</p>
+                </div>
+                <div class="anomaly-item">
+                  <div class="metric-top">
+                    <span class="metric-name">Spam Reports</span>
+                    <span class="metric-tag tag-danger" id="call-tag-reports">1,894 COMPLAINTS</span>
+                  </div>
+                  <p class="metric-desc" id="call-desc-reports">Reported on Chakshu and Truecaller as TRAI/FedEx extortion caller.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="advice-card">
+              <span class="advice-icon">🛡️</span>
+              <div class="advice-content">
+                <strong>Safety Recommendation:</strong>
+                <p id="call-advice-desc">Do NOT press any number (e.g. 'Press 9 to speak with executive'). Block the number immediately.</p>
+              </div>
+            </div>
+
+            <div class="takedown-generator-card">
+              <div style="display: flex; gap: 0.75rem; width: 100%;">
+                <a href="https://sancharsaathi.gov.in/sfc/" target="_blank" class="btn-secondary" style="flex: 1; text-decoration: none; text-align: center;">
+                  <span>🚨 Block &amp; Report SIM on Chakshu &rarr;</span>
+                </a>
+                <button id="btn-goto-emergency-from-call" class="btn-primary" style="flex: 1;">
+                  <span>⚠️ Shared Info? Take Emergency Action</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB 3: EMERGENCY PROTOCOLS (IF SENSITIVE INFORMATION SHARED) -->
+      <div id="scam-emergency-container" class="module-grid" style="display: none; grid-template-columns: 1fr;">
+        <div class="glass-card emergency-panel">
+          <div class="emergency-hero-header">
+            <div class="emergency-badge-wrap">
+              <span class="badge-urgent-pulse">🚨 CRITICAL PROTOCOL</span>
+              <h1>What To Do If You Have Already Shared Information or Money</h1>
+              <p class="emergency-subtitle">Don't panic! Act immediately within the "Golden Hour" to freeze transactions, lock compromised identity documents, and disconnect remote spy software.</p>
+            </div>
+            <div class="emergency-cta-bar">
+              <a href="tel:1930" class="btn-emergency-call">
+                <span class="call-pulse-icon">📞</span>
+                <span class="call-text-wrap">
+                  <strong>DIAL 1930 (TOLL-FREE)</strong>
+                  <small>National Cyber Crime Helpline (Golden Hour Freeze)</small>
+                </span>
+              </a>
+              <button id="btn-speak-emergency-steps" class="btn-voice-replay">
+                🔊 Speak Emergency Action Plan (हिंदी / English)
+              </button>
+            </div>
+          </div>
+
+          <!-- 4 Critical Recovery Scenario Cards -->
+          <div class="emergency-scenarios-grid">
+            <!-- Scenario 1: OTP / Money Transferred -->
+            <div class="emergency-scenario-card border-danger">
+              <div class="scenario-card-header">
+                <span class="scenario-icon">💳</span>
+                <div class="scenario-title">
+                  <h3>1. If You Shared Bank OTP, UPI PIN, or Transferred Money</h3>
+                  <span class="scenario-tag tag-urgent">Time Limit: 0-2 Hours</span>
+                </div>
+              </div>
+              <ol class="action-steps-list">
+                <li>
+                  <strong>Call 1930 Cyber Fraud Helpline immediately:</strong> Report the scammer's UPI ID / bank details. 1930 activates the Citizen Financial Cyber Fraud Reporting System (CFCFRMS) to freeze money in the scammer's bank account before they withdraw it.
+                </li>
+                <li>
+                  <strong>Call Your Bank Emergency Hotline:</strong> Ask them to immediately block your Debit/Credit card, Net Banking access, and UPI VPA.
+                </li>
+                <li>
+                  <strong>Note Down Transaction UTR / Ref Number:</strong> Copy the 12-digit UTR number from your bank SMS. This is legally required to reverse or freeze the fraudulent transfer.
+                </li>
+              </ol>
+              <div class="scenario-action-links">
+                <a href="https://cybercrime.gov.in" target="_blank" class="btn-emergency-link">
+                  <span>Submit Complaint on cybercrime.gov.in &rarr;</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Scenario 2: Clicked Link or Installed APK / Remote App -->
+            <div class="emergency-scenario-card border-warning">
+              <div class="scenario-card-header">
+                <span class="scenario-icon">📱</span>
+                <div class="scenario-title">
+                  <h3>2. If You Clicked a Link or Installed an App (APK / AnyDesk)</h3>
+                  <span class="scenario-tag tag-warning">Immediate Device Isolation</span>
+                </div>
+              </div>
+              <ol class="action-steps-list">
+                <li>
+                  <strong>Turn ON Airplane Mode Immediately:</strong> Sever mobile data and Wi-Fi instantly. This stops malware or remote desktop tools (AnyDesk, TeamViewer, QuickSupport) from streaming your screen and OTPs to scammers.
+                </li>
+                <li>
+                  <strong>Revoke Device Admin &amp; Accessibility Permissions:</strong> Go to <code>Settings &rarr; Apps &rarr; Special App Access &rarr; Device Admin Apps</code> and deactivate any unfamiliar applications.
+                </li>
+                <li>
+                  <strong>Uninstall Suspicious App or Factory Reset:</strong> Delete the downloaded APK file from your Downloads folder. If your device behaves erratically, back up personal photos and perform a clean Factory Data Reset.
+                </li>
+              </ol>
+            </div>
+
+            <!-- Scenario 3: Shared Aadhaar / PAN / Personal ID -->
+            <div class="emergency-scenario-card border-info">
+              <div class="scenario-card-header">
+                <span class="scenario-icon">🪪</span>
+                <div class="scenario-title">
+                  <h3>3. If You Shared Aadhaar Card, PAN Card, or ID Photos</h3>
+                  <span class="scenario-tag tag-info">Prevent Identity Theft</span>
+                </div>
+              </div>
+              <ol class="action-steps-list">
+                <li>
+                  <strong>Lock Aadhaar Biometrics Online:</strong> Open the official UIDAI mAadhaar app or visit <code>myaadhaar.uidai.gov.in</code>. Turn ON "Lock Biometrics" so no one can use your fingerprint or iris for SIM purchases or microloans.
+                </li>
+                <li>
+                  <strong>Monitor Credit Bureau Reports (CIBIL / Experian):</strong> Check your free annual credit report to ensure scammers have not opened instant loan applications in your name.
+                </li>
+                <li>
+                  <strong>File an Identity Theft Incident Report:</strong> Lodge an official cyber report documenting that your identity documents were fraudulently obtained.
+                </li>
+              </ol>
+              <div class="scenario-action-links">
+                <a href="https://myaadhaar.uidai.gov.in" target="_blank" class="btn-emergency-link">
+                  <span>Lock Aadhaar on myaadhaar.uidai.gov.in &rarr;</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Scenario 4: Digital Arrest Threat or CBI / Police Extortion -->
+            <div class="emergency-scenario-card border-purple">
+              <div class="scenario-card-header">
+                <span class="scenario-icon">⚖️</span>
+                <div class="scenario-title">
+                  <h3>4. If You Were Threatened with "Digital Arrest" or Fake Police</h3>
+                  <span class="scenario-tag tag-purple">Legal Clarification</span>
+                </div>
+              </div>
+              <ol class="action-steps-list">
+                <li>
+                  <strong>FACT: There is NO "Digital Arrest" in Indian Law:</strong> The Supreme Court of India, CBI, Police, and ED NEVER arrest citizens or conduct trials over Skype, WhatsApp video calls, or demand money for bail/clearance.
+                </li>
+                <li>
+                  <strong>Hang Up and Block Immediately:</strong> Do not stay on the video call. Scammers use fake police uniforms and virtual courtroom backgrounds to intimidate victims.
+                </li>
+                <li>
+                  <strong>Report Number to Chakshu (Sanchar Saathi):</strong> Report the scammer's phone number and WhatsApp handle to DoT to revoke their telecom connection across India.
+                </li>
+              </ol>
+              <div class="scenario-action-links">
+                <a href="https://sancharsaathi.gov.in/sfc/" target="_blank" class="btn-emergency-link">
+                  <span>Report Impersonator on Chakshu Portal &rarr;</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 1-Click Pre-Filled Police Complaint Generator -->
+          <div class="complaint-generator-box">
+            <div class="complaint-gen-header">
+              <div>
+                <h3>📋 1-Click Pre-Filled Emergency Police &amp; Bank Complaint Draft</h3>
+                <p>Ready to email directly to your bank's grievance officer or submit on cybercrime.gov.in.</p>
+              </div>
+              <button id="btn-copy-emergency-complaint" class="btn-primary">
+                📋 Copy Complaint to Clipboard
+              </button>
+            </div>
+            <textarea id="emergency-complaint-draft" class="complaint-textarea" rows="8" readonly></textarea>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- MODAL: JUDGE PITCH DECK & 2-MINUTE CHEAT-SHEET -->
+  <div class="modal-backdrop" id="pitch-modal" style="display: none;">
+    <div class="modal-dialog pitch-dialog">
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <span class="pitch-badge">JUDGE PITCH CHEAT-SHEET</span>
+          <h2>How to Present VeriShield AI in 2 Minutes</h2>
+        </div>
+        <button class="btn-close-modal" id="btn-close-pitch">&times;</button>
+      </div>
+
+      <div class="modal-body pitch-body">
+        <div class="pitch-timer-bar">
+          <span class="timer-tag">RECOMMENDED PITCH TIME: 2 MINUTES</span>
+          <div class="timer-countdown" id="pitch-timer">02:00</div>
+          <button class="btn-start-timer" id="btn-start-timer">Start Pitch Timer</button>
+        </div>
+
+        <div class="pitch-steps">
+          <div class="pitch-step-card">
+            <div class="step-badge">1. THE HOOK (20 SECONDS)</div>
+            <h4>Why This Matters to Everyday Indians</h4>
+            <p>
+              <em>"Respected judges, digital fraud is attacking ordinary citizens through media deception. Shopkeepers lose money to fake payment screenshots, parents lose life savings to AI voice clones, students face deepfake extortion, and elderly citizens get duped by electricity power-cut scam messages."</em>
+            </p>
+          </div>
+
+          <div class="pitch-step-card highlight">
+            <div class="step-badge">2. OUR 4-PILLAR SOLUTION &amp; DEMO (60 SECONDS)</div>
+            <h4>VeriShield AI — The 4-Pillar Human Shield</h4>
+            <ul>
+              <li><strong>1. Fake Payment Buster (Deepak's Core Feature):</strong> Show both Single and Batch photo scans! Show how our engine catches fake fonts &amp; bad UTRs, and speaks a loud Hindi alert!</li>
+              <li><strong>2. AI Voice Clone Radar:</strong> Show the synthetic frequency visualizer exposing cloned family calls and fake police arrest threats.</li>
+              <li><strong>3. Deepfake Shield:</strong> Toggle the forensic heatmap to reveal face-swap seams and generate official cyber notices.</li>
+              <li><strong>4. Fraud Calls &amp; Scam Messages Radar:</strong> Show how it catches electricity disconnection SMS scams and fake bank KYC links!</li>
+            </ul>
+          </div>
+
+          <div class="pitch-step-card">
+            <div class="step-badge">3. SENIOR CITIZEN MODE (20 SECONDS)</div>
+            <h4>Accessibility for Everyone</h4>
+            <p>
+              <em>"Notice our <strong>Senior Mode toggle</strong>: high contrast, extra-large text, and automatic voice alerts in Hindi first, then English."</em>
+            </p>
+          </div>
+
+          <div class="pitch-step-card">
+            <div class="step-badge">4. THE CLOSING (20 SECONDS)</div>
+            <h4>Impact &amp; Vision</h4>
+            <p>
+              <em>"VeriShield bridges technology with human empathy. We are making digital India safe for the grandmother in the village, the student on campus, and the small chai vendor."</em>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: LEGAL TAKEDOWN NOTICE -->
+  <div class="modal-backdrop" id="takedown-modal" style="display: none;">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <span class="pitch-badge">LEGAL REMEDY</span>
+          <h2>Cyber Crime Incident Report &amp; Takedown Request</h2>
+        </div>
+        <button class="btn-close-modal" id="btn-close-takedown">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="notice-preview" id="notice-text-content"></div>
+        <div class="notice-actions">
+          <button class="btn-primary" id="btn-copy-notice">📋 Copy Legal Notice</button>
+          <a href="https://cybercrime.gov.in" target="_blank" class="btn-secondary">Submit to National Cyber Portal &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: WEBSITE SECURITY ACCESS GATE & USER IDENTITY ONBOARDING -->
+  <div class="modal-backdrop" id="website-security-modal" style="display: none;">
+    <div class="modal-dialog security-gate-dialog">
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <span class="security-gate-badge">🛡️ WEBSITE ACCESS &amp; IDENTITY GATE</span>
+          <h2 id="sec-modal-title">Welcome to VeriShield AI</h2>
+        </div>
+        <button class="btn-close-modal" id="btn-close-sec-modal">&times;</button>
+      </div>
+
+      <div class="modal-body security-gate-body">
+        <!-- STEP 1: Name and Age Input -->
+        <div id="sec-step-1" class="sec-step-container">
+          <div class="sec-intro-banner">
+            <span class="sec-shield-icon">🔐</span>
+            <div>
+              <h3>Personalized Security Profile</h3>
+              <p>Please enter your details so VeriShield AI can configure your forensic protection mode and voice alerts.</p>
+            </div>
+          </div>
+
+          <div class="sec-form-group">
+            <label for="sec-name-input" class="sec-label">Your Name / आपका नाम:</label>
+            <input type="text" id="sec-name-input" class="sec-input" placeholder="e.g. Deepak Sehrawat" value="Deepak Sehrawat">
+          </div>
+
+          <div class="sec-form-group">
+            <label for="sec-age-input" class="sec-label">Your Age / आपकी उम्र:</label>
+            <input type="number" id="sec-age-input" class="sec-input" placeholder="e.g. 22 or 62" min="10" max="115" value="22">
+            <p class="sec-field-note">ℹ️ Age above 50 automatically turns on <strong>Senior Citizen (बुजुर्ग) Mode</strong>.</p>
+          </div>
+
+          <div class="sec-form-actions">
+            <button id="btn-sec-proceed-step2" class="btn-primary btn-full">
+              <span>Continue / आगे बढ़ें &rarr;</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- STEP 2A: SENIOR CITIZEN MODE (Age > 50) -->
+        <div id="sec-step-senior" class="sec-step-container" style="display: none;">
+          <div class="senior-activated-banner">
+            <span class="senior-badge-big">👴</span>
+            <div>
+              <h3>Old Man / Senior Citizen Mode Activated!</h3>
+              <p>वरिष्ठ नागरिक मोड स्वतः चालू हो गया है। बड़े अक्षर, उच्च कंट्रास्ट और स्पष्ट आवाज सहायता सक्रिय है।</p>
+            </div>
+          </div>
+
+          <div class="sec-lang-choice-card">
+            <label class="sec-label">आप किस भाषा में टेक्स्ट और आवाज सुनना चाहते हैं? (Choose Language):</label>
+            <div class="lang-pill-options">
+              <label class="lang-option-pill active" id="pill-senior-hindi">
+                <input type="radio" name="senior-lang-choice" value="hindi" checked>
+                <span class="pill-radio-dot"></span>
+                <div class="pill-text">
+                  <strong>हिंदी (Hindi Only)</strong>
+                  <span>स्क्रीन पर हिंदी टेक्स्ट और स्पष्ट हिंदी आवाज में परिणाम</span>
+                </div>
+              </label>
+
+              <label class="lang-option-pill" id="pill-senior-english">
+                <input type="radio" name="senior-lang-choice" value="english">
+                <span class="pill-radio-dot"></span>
+                <div class="pill-text">
+                  <strong>English (Only English)</strong>
+                  <span>Large font English text and spoken audio alerts</span>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <div class="sec-form-actions">
+            <button id="btn-sec-finish-senior" class="btn-primary btn-full btn-large">
+              <span>🛡️ Save &amp; Enter Website / वेबसाइट में प्रवेश करें &rarr;</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- STEP 2B: REGULAR USER MODE (Age <= 50) -->
+        <div id="sec-step-regular" class="sec-step-container" style="display: none;">
+          <div class="regular-activated-banner">
+            <span class="reg-shield-icon">⚡</span>
+            <div>
+              <h3 id="reg-welcome-heading">Welcome, Deepak!</h3>
+              <p>Select which language you want VeriShield to speak forensic alerts and display warnings:</p>
+            </div>
+          </div>
+
+          <div class="sec-lang-choice-card">
+            <div class="lang-pill-options">
+              <label class="lang-option-pill" id="pill-reg-english">
+                <input type="radio" name="reg-lang-choice" value="english">
+                <span class="pill-radio-dot"></span>
+                <div class="pill-text">
+                  <strong>English</strong>
+                  <span>Spoken forensic verdicts in English</span>
+                </div>
+              </label>
+
+              <label class="lang-option-pill" id="pill-reg-hindi">
+                <input type="radio" name="reg-lang-choice" value="hindi">
+                <span class="pill-radio-dot"></span>
+                <div class="pill-text">
+                  <strong>हिंदी (Hindi)</strong>
+                  <span>हिंदी आवाज और तत्काल चेतावनी अलर्ट</span>
+                </div>
+              </label>
+
+              <label class="lang-option-pill active" id="pill-reg-both">
+                <input type="radio" name="reg-lang-choice" value="both" checked>
+                <span class="pill-radio-dot"></span>
+                <div class="pill-text">
+                  <strong>Both (Hindi First, then English)</strong>
+                  <span>⭐ Recommended: Speaks Hindi warning first, followed by English explanation</span>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <div class="sec-form-actions">
+            <button id="btn-sec-finish-regular" class="btn-primary btn-full">
+              <span>🛡️ Save Security Profile &amp; Enter VeriShield &rarr;</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- MODAL: LIVE SQLITE DATABASE & REST API EXPLORER FOR JUDGES -->
+  <div class="modal-backdrop" id="db-explorer-modal" style="display: none;">
+    <div class="modal-dialog db-modal-dialog">
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <span class="modal-badge">DATABASE &amp; BACKEND ARCHITECTURE</span>
+          <h2>🗄️ VeriShield SQLite Database &amp; REST API Explorer</h2>
+          <p class="modal-subtitle">Live inspection of Python backend runtime, REST endpoints, and persistent relational SQLite tables.</p>
+        </div>
+        <button id="btn-close-db-modal" class="modal-close-btn">&times;</button>
+      </div>
+
+      <div class="modal-body db-modal-body">
+        <!-- Live Database Stats Row -->
+        <div class="db-stats-bar">
+          <div class="db-stat-item">
+            <span class="db-stat-label">Database Engine</span>
+            <strong class="db-stat-val text-cyan">SQLite 3.x (ACID Compliant)</strong>
+          </div>
+          <div class="db-stat-item">
+            <span class="db-stat-label">Storage Location</span>
+            <strong class="db-stat-val text-mono">./verishield.db</strong>
+          </div>
+          <div class="db-stat-item">
+            <span class="db-stat-label">Total SQL Tables</span>
+            <strong class="db-stat-val" id="db-stat-tables-count">6 Relational Tables</strong>
+          </div>
+          <div class="db-stat-item">
+            <span class="db-stat-label">Total Stored Records</span>
+            <strong class="db-stat-val text-green" id="db-stat-rows-count">-- Records</strong>
+          </div>
+          <div class="db-stat-item">
+            <span class="db-stat-label">Backend Status</span>
+            <strong class="db-stat-val text-green">🟢 Python REST API (Port 3000)</strong>
+          </div>
+        </div>
+
+        <!-- Table Selector Tabs -->
+        <div class="db-table-tabs">
+          <button class="btn-table-tab active" data-table="users">
+            <span>👤 users (<span id="count-users">0</span>)</span>
+          </button>
+          <button class="btn-table-tab" data-table="voice_vault">
+            <span>🎙️ voice_vault (<span id="count-voice_vault">0</span>)</span>
+          </button>
+          <button class="btn-table-tab" data-table="threat_feed_messages">
+            <span>📩 threat_feed_messages (<span id="count-threat_feed_messages">0</span>)</span>
+          </button>
+          <button class="btn-table-tab" data-table="threat_feed_calls">
+            <span>📞 threat_feed_calls (<span id="count-threat_feed_calls">0</span>)</span>
+          </button>
+          <button class="btn-table-tab" data-table="emergency_incidents">
+            <span>🚨 emergency_incidents (<span id="count-emergency_incidents">0</span>)</span>
+          </button>
+          <button class="btn-table-tab" data-table="audit_scans">
+            <span>📊 audit_scans (<span id="count-audit_scans">0</span>)</span>
+          </button>
+        </div>
+
+        <!-- Live SQL Table View -->
+        <div class="db-table-container">
+          <div class="db-table-header-row">
+            <div>
+              <strong id="current-table-title">Table: users</strong>
+              <span id="current-table-desc" class="table-desc-text">User identity, age verification, and language preferences</span>
+            </div>
+            <button id="btn-refresh-db" class="btn-secondary btn-sm">
+              <span>🔄 Refresh SQL Data</span>
+            </button>
+          </div>
+          <div class="db-table-scroll">
+            <table class="sql-table" id="live-sql-table">
+              <thead id="sql-table-head"></thead>
+              <tbody id="sql-table-body"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Live REST API Request & Response Tester -->
+        <div class="api-tester-section">
+          <div class="api-tester-header">
+            <h3>⚡ Live REST API Tester (Click to Inspect Live JSON Endpoints):</h3>
+          </div>
+          <div class="api-quick-buttons">
+            <button class="btn-api-test active" data-endpoint="/api/health">GET /api/health</button>
+            <button class="btn-api-test" data-endpoint="/api/db/stats">GET /api/db/stats</button>
+            <button class="btn-api-test" data-endpoint="/api/vault">GET /api/vault</button>
+            <button class="btn-api-test" data-endpoint="/api/feed/messages">GET /api/feed/messages</button>
+            <button class="btn-api-test" data-endpoint="/api/feed/calls">GET /api/feed/calls</button>
+            <button class="btn-api-test" data-endpoint="/api/incidents">GET /api/incidents</button>
+          </div>
+          <pre class="api-response-viewer" id="api-response-viewer">// Click any API button above to fetch live JSON from Python backend...</pre>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="app-footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <strong>VeriShield AI</strong> • Built by Deepak Sehrawat for CODE FLUX Hackathon, LPU
+      </div>
+      <div class="footer-right">
+        <span>Track 6: Trust &amp; Safety in Digital Media</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
